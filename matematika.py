@@ -4,7 +4,8 @@ def instruksi () :
     - kurang(nilai1,nilai2) 
     - perkalian(nilai1,nilai2)
     - pembagian(nilai1,nilai2) 
-    - modulus(nilai1,nilai2)""")
+    - modulus(nilai1,nilai2)
+    - penjumlahan_deret(nilai)""")
 
 
 def tambah (num1,num2) :
@@ -30,3 +31,6 @@ def modulus (num1,num2) :
     print(num1, "%",num2, "=" ,result)  
    
 
+def penjumlahan_deret(n):
+    for i in range (n) : z= (n+1)/2 * n 
+    print(z)

@@ -1,2 +1,3 @@
-from matematika import modulus
+from matematika import *
 
+instruksi()
