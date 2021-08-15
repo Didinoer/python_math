@@ -5,7 +5,8 @@ def instruksi () :
     - perkalian(nilai1,nilai2)
     - pembagian(nilai1,nilai2) 
     - modulus(nilai1,nilai2)
-    - penjumlahan_deret(nilai)""")
+    - penjumlahan_deret(nilai)
+    - faktorial(nilai) note: untuk menampilkan wajib pakai print""")
 
 
 def tambah (num1,num2) :
@@ -34,3 +35,10 @@ def modulus (num1,num2) :
 def penjumlahan_deret(n):
     for i in range (n) : z= (n+1)/2 * n 
     print(z)
+
+def faktorial(n) :
+     if n ==1 :
+         return 1
+     else :
+         return (n*faktorial(n-1))
+         
