@@ -12,33 +12,40 @@ def instruksi () :
 def tambah (num1,num2) :
   result = num1 +num2 
   print( num1, "+", num2 , "=" ,result)
+  return result
    
 def kurang (num1,num2) :
     result = num1-num2 
     print(num1, "+",num2, "=" ,result)
-
+    return result
 def perkalian (num1,num2) :
     result = num1 * num2 
     print(num1, "X",num2, "=" ,result)
+    return result
 
 def pembagian (num1,num2) :
     result = num1/num2 
     print(num1, "/",num2, "=" ,result)
+    return result
 
 
 
 def modulus (num1,num2) :
     result = num1 % num2 
     print(num1, "%",num2, "=" ,result)  
+    return result
    
 
 def penjumlahan_deret(n):
     for i in range (n) : z= (n+1)/2 * n 
-    print(z)
+    print(" penjumlahan deret dari 1 sampai ", n , "=",z )
+    return z
+
 
 def faktorial(n) :
      if n ==1 :
          return 1
      else :
-         return (n*faktorial(n-1))
+         print(n, "\n X")
+         return n*faktorial(n-1)
          
